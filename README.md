@@ -1,0 +1,1 @@
+# open5gs_install_mongodb7_webui

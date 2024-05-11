@@ -22,6 +22,9 @@ The process for the following OS is shown here.
 
 ## Install MongoDB 7.0
 
+**Note. MongoDB v4.4.19 and later will not run on CPUs that do not support AVX instruction.
+In this case, it is necessary to downgrade it to v4.4.18.
+For reference, I wrote the steps to install v4.4.18 on Ubuntu 20.04 on Raspberry Pi 4B [here](https://github.com/s5uishida/install_mongodb_on_ubuntu_for_rp4b).**
 ```
 # apt update
 # apt install gnupg wget

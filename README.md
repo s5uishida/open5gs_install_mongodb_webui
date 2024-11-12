@@ -55,7 +55,10 @@ First, install Node.js, see [here](https://github.com/nodesource/distributions).
 ```
 Then, install Open5GS WebUI.
 ```
-# curl -fsSL https://open5gs.org/open5gs/assets/webui/install | sudo -E bash -
+# mkdir ~/tmp
+# cd ~/tmp
+# wget https://raw.githubusercontent.com/open5gs/open5gs/refs/heads/main/docs/assets/webui/install
+# bash install
 ```
 If necessary, set the IP address and port to bind as follows (ex. `192.168.0.111:3000`).
 

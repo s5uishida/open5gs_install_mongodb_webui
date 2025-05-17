@@ -80,6 +80,12 @@ Update system services.
 # systemctl daemon-reload
 # systemctl restart open5gs-webui
 ```
+And, login to Web console as follows and register subscriber information.
+```
+http://<IP address of Web console>:3000/
+username: admin
+password: 1423
+```
 ---
 <a id="changelog"></a>
 
